@@ -54,6 +54,8 @@ body {
   position: relative;
   display: inline-block;
   width: 50px;
+  left: -10px;
+  top: -5px;
 }
 
 .labels .switch-input {
@@ -104,7 +106,7 @@ body {
 }
 
 .labels .switch-input:checked + .switch-label::before {
-  background-color: #89c12d;
+  background-color: #a3a8f0;
 }
 
 .labels .switch-input:checked + .switch-label::after {

@@ -56,6 +56,8 @@ body{
         position: relative;
         display: inline-block;
         width: 50px;
+        left: -10px;
+        top: -5px;
     }
     .switch-input {
         display: none;
@@ -96,7 +98,7 @@ body{
         transition: left 0.25s ease;
       }
       .switch-input:checked + .switch-label::before {
-        background-color: #89c12d;
+        background-color: $neutral;
       }
       .switch-input:checked + .switch-label::after {
         left: 35px;
